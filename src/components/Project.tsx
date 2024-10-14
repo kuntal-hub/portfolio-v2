@@ -85,7 +85,7 @@ export default function Project() {
                 }
             </div>
 
-            <Link href="/projects" className='block w-[240px] mb-8 mx-auto'>
+            <Link href="/projects" className='block w-[240px] mx-auto'>
                 <MagicButton
                     title="Show all projects"
                     icon={<FaLocationArrow />}

@@ -2,7 +2,7 @@ export const navItems = [
     // { name: "Home", link: "/" },
     { name: "About", link: "/#about" },
     { name: "Projects", link: "/#projects" },
-    { name: "Testimonials", link: "/#testimonials" },
+    { name: "Skills", link: "/#skills" },
     { name: "Contact", link: "/#contact" },
   ];
   
@@ -172,6 +172,100 @@ export const navItems = [
       github:'https://github.com/kuntal-hub/spotify_clone',
     },
   ];
+
+
+  export const skills = [
+    {
+      name:'HTML',
+      logo:'/icons8-html.svg',
+      percent:94,
+      color:'#e34c26'
+    },
+    {
+      name:'CSS',
+      logo:'/icons8-css.svg',
+      percent:90,
+      color:'#2965f1'
+    },
+    {
+      name:'JavaScript',
+      logo:'/js.svg',
+      percent:92,
+      color:'#FAC42F'
+    },
+    {
+      name:'React',
+      logo:'/re.svg',
+      percent:95,
+      color:'#61DBFB'
+    },
+    {
+      name:'Redux Toolkit',
+      logo:'/redux-logo-svgrepo-com.svg',
+      percent:90,
+      color:'#764abc'
+    },
+    {
+      name:'Next.js',
+      logo:'/next.svg',
+      percent:90,
+      color:'#FFFFFF'
+    },
+    {
+      name:'React Native',
+      logo:'/re.svg',
+      percent:85,
+      color:'#61DBFB'
+    },
+    {
+      name:'Tailwind CSS',
+      logo:'/tail.svg',
+      percent:95,
+      color:'#01CBC6'
+    },
+    {
+      name:'TypeScript',
+      logo:'/ts.svg',
+      percent:85,
+      color:'#3178C6'
+    },
+    {
+      name:'Node.js',
+      logo:'/node-svgrepo-com.svg',
+      percent:80,
+      color:'#3C873A'
+    },
+    {
+      name: "Express",
+      logo: "/Express.png",
+      percent: 80,
+      color:'#FFFFFF'
+    },
+    {
+      name:'Appwrite',
+      logo:'/app.svg',
+      percent:85,
+      color:'#fe019a'
+    },
+    // {
+    //   name:'Cloudinary',
+    //   logo:'/cloud.svg',
+    //   percent:80,
+    //   color:'#FFFFFF'
+    // },
+    // {
+    //   name:'Docker',
+    //   logo:'/dock.svg',
+    //   percent:75,
+    //   color:'#4F46E5'
+    // },
+    // {
+    //   name: 'Azure',
+    //   logo: '/azure-svgrepo-com.svg',
+    //   percent: 70,
+    //   color:'#4F46E5'
+    // }
+  ]
   
   export const testimonials = [
     {
@@ -242,24 +336,24 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Full Stack Developer",
+      desc: "Build and deploy many web applications using modern frontend and backend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Freelance Web Dev Project",
+      desc: "Led the dev of a E-commerce web app for a client, from initial concept to deployment on vercle",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/exp3.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Mobile App Developer",
+      desc: "Develop mobile apps for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/exp2.svg",
     },
     {
       id: 4,
@@ -274,13 +368,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: 'https://github.com/kuntal-hub'
     },
     {
       id: 2,
       img: "/twit.svg",
+      link:"#"
     },
     {
       id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/kuntal-maity-8aa4612a9"
     },
   ];
