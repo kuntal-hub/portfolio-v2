@@ -77,7 +77,7 @@ export const navItems = [
       isFeatured: true,
       des: "A web-based code editor with a real-time preview feature, Seamlessly create, edit, and Share your work.",
       img: "/Screenshot (107)-min.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/node-svgrepo-com.svg", "/cloud.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/mongo-svgrepo-com.svg", "/node-svgrepo-com.svg", "/cloud.svg"],
       link: "https://codeweb-woad.vercel.app",
       github:'https://github.com/kuntal-hub/codeweb-frontend'
     },
@@ -97,7 +97,7 @@ export const navItems = [
       isFeatured: true,
       des: "An e-commerce platform for selling customised photo prints, with a focus on user experience and performance.",
       img: "/Screenshot (109)-min.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/cloud.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/mongo-svgrepo-com.svg"],
       link: "https://photoin.in",
       github:'https://github.com/kuntal-hub/photoin',
     },
@@ -107,7 +107,7 @@ export const navItems = [
       isFeatured: true,
       des: "An Ai powered image generation tool with advanced features like image restore, object removal, and more.",
       img: "/Screenshot (105)-min.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/cloud.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/mongo-svgrepo-com.svg", "/ts.svg", "/cloud.svg", "/c.svg"],
       link: "https://imaginify-theta-self.vercel.app/",
       github:'https://github.com/kuntal-hub/imaginify',
     },
@@ -127,7 +127,7 @@ export const navItems = [
       isFeatured: true,
       des: "A social media platform for learners, Seamlessly connect with learners and share your knowledge.",
       img: "/Screenshot (111)-min.png",
-      iconLists: ["/re.svg", "/tail.svg", "/node-svgrepo-com.svg", "/shadcn.png", "/cloud.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/node-svgrepo-com.svg", "/shadcn.png", "/mongo-svgrepo-com.svg"],
       link: "#",
       github:'https://github.com/kuntal-hub/share-learner',
     },
@@ -218,16 +218,10 @@ export const navItems = [
       color:'#61DBFB'
     },
     {
-      name:'Tailwind CSS',
-      logo:'/tail.svg',
-      percent:95,
-      color:'#01CBC6'
-    },
-    {
-      name:'TypeScript',
-      logo:'/ts.svg',
+      name:'MongoDB',
+      logo:'/mongo-svgrepo-com.svg',
       percent:85,
-      color:'#3178C6'
+      color:'#4DB33D'
     },
     {
       name:'Node.js',
@@ -242,29 +236,41 @@ export const navItems = [
       color:'#FFFFFF'
     },
     {
+      name:'Tailwind CSS',
+      logo:'/tail.svg',
+      percent:95,
+      color:'#01CBC6'
+    },
+    {
+      name:'TypeScript',
+      logo:'/ts.svg',
+      percent:85,
+      color:'#3178C6'
+    },
+    {
       name:'Appwrite',
       logo:'/app.svg',
       percent:85,
       color:'#fe019a'
     },
-    // {
-    //   name:'Cloudinary',
-    //   logo:'/cloud.svg',
-    //   percent:80,
-    //   color:'#FFFFFF'
-    // },
-    // {
-    //   name:'Docker',
-    //   logo:'/dock.svg',
-    //   percent:75,
-    //   color:'#4F46E5'
-    // },
-    // {
-    //   name: 'Azure',
-    //   logo: '/azure-svgrepo-com.svg',
-    //   percent: 70,
-    //   color:'#4F46E5'
-    // }
+    {
+      name:'Cloudinary',
+      logo:'/cloud.svg',
+      percent:80,
+      color:'#FFFFFF'
+    },
+    {
+      name:'Docker',
+      logo:'/dock.svg',
+      percent:75,
+      color:'#4F46E5'
+    },
+    {
+      name: 'Azure',
+      logo: '/azure-svgrepo-com.svg',
+      percent: 70,
+      color:'#4F46E5'
+    }
   ]
   
   export const testimonials = [
