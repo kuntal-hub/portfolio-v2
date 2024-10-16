@@ -83,12 +83,12 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "CALLUP", // not done yet
+      title: "CALLUP",
       isFeatured: true,
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "Simplify your video conferencing experience with CALLUP. Seamlessly connect with colleagues and friends.",
       img: "/Screenshot (108)-min.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "#",
+      link: "https://callup-eight.vercel.app",
       github:'https://github.com/kuntal-hub/callup'
     },
     {
