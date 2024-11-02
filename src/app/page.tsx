@@ -15,7 +15,7 @@ export default function Home() {
       <Grid />
       <Project />
       <Skills />
-      {/* <Clients /> */}
+      <Clients />
       <Experience />
       <Approach />
       <Footer />

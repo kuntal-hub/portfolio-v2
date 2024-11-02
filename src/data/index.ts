@@ -276,33 +276,45 @@ export const skills = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Kuntal was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Kuntal's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Kuntal is the ideal partner.",
+    name: "Subrata Jana",
+    title: "Founder of Photoin.in",
+    photo: '/WhatsApp Image 2024-11-02 at 10.30.36 AM (1)-min.jpeg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Programming is not about what you know; it's about what you can figure out. Kuntal is a great example of this. Hes ability to solve complex problems and learn new technologies quickly is impressive. His work quality is excellent, Kuntal always over delivers with respect to quality and timeliness. I highly recommend Kuntal for any web development project.",
+    name: "Polash Panja",
+    title: "Owner of M Enterprises",
+    photo: 'WhatsApp Image 2024-11-02 at 10.30.36 AM-min.jpeg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Kuntal was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Kuntal's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Kuntal is the ideal partner.",
+    name: "Subrata Jana",
+    title: "Founder of Photoin.in",
+    photo: '/WhatsApp Image 2024-11-02 at 10.30.36 AM (1)-min.jpeg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Programming is not about what you know; it's about what you can figure out. Kuntal is a great example of this. Hes ability to solve complex problems and learn new technologies quickly is impressive. His work quality is excellent, Kuntal always over delivers with respect to quality and timeliness. I highly recommend Kuntal for any web development project.",
+    name: "Polash Panja",
+    title: "Owner of M Enterprises",
+    photo: 'WhatsApp Image 2024-11-02 at 10.30.36 AM-min.jpeg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Kuntal was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Kuntal's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Kuntal is the ideal partner.",
+    name: "Subrata Jana",
+    title: "Founder of Photoin.in",
+    photo: '/WhatsApp Image 2024-11-02 at 10.30.36 AM (1)-min.jpeg',
+  },
+  {
+    quote:
+      "Programming is not about what you know; it's about what you can figure out. Kuntal is a great example of this. Hes ability to solve complex problems and learn new technologies quickly is impressive. His work quality is excellent, Kuntal always over delivers with respect to quality and timeliness. I highly recommend Kuntal for any web development project.",
+    name: "Polash Panja",
+    title: "Owner of M Enterprises",
+    photo: 'WhatsApp Image 2024-11-02 at 10.30.36 AM-min.jpeg',
   },
 ];
 
@@ -379,7 +391,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link: "#"
+    link: "https://x.com/kuntal582"
   },
   {
     id: 3,
