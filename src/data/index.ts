@@ -168,7 +168,7 @@ export const projects = [
     des: "A simple music player built with plain HTML, CSS, and JavaScript.",
     img: "/Screenshot (114)-min.png",
     iconLists: ["/icons8-html.svg", "/icons8-css.svg", "/js.svg"],
-    link: "https://github.com/kuntal-hub/spotify_clone",
+    link: "https://kuntal-hub.github.io/spotify_clone",
     github: 'https://github.com/kuntal-hub/spotify_clone',
   },
 ];
