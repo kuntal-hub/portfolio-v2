@@ -78,7 +78,7 @@ export const projects = [
     des: "A web-based code editor with a real-time preview feature, Seamlessly create, edit, and Share your work.",
     img: "/Screenshot (107)-min.png",
     iconLists: ["/re.svg", "/tail.svg", "/mongo-svgrepo-com.svg", "/node-svgrepo-com.svg", "/cloud.svg"],
-    link: "https://codeweb-woad.vercel.app",
+    link: "https://codeweb.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/codeweb-frontend'
   },
   {
@@ -88,7 +88,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with CALLUP. Seamlessly connect with colleagues and friends.",
     img: "/Screenshot (108)-min.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://callup-eight.vercel.app",
+    link: "https://callup.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/callup'
   },
   {
@@ -108,7 +108,7 @@ export const projects = [
     des: "An Ai powered image generation tool with advanced features like image restore, object removal, and more.",
     img: "/Screenshot (105)-min.png",
     iconLists: ["/next.svg", "/mongo-svgrepo-com.svg", "/ts.svg", "/cloud.svg", "/c.svg"],
-    link: "https://imaginify-theta-self.vercel.app/",
+    link: "https://imaginify.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/imaginify',
   },
   {
@@ -118,7 +118,7 @@ export const projects = [
     des: "A blogging platform build with Appwrite and Reactjs, Seamlessly create, edit, and Share your blog.",
     img: "/Screenshot (106)-min.png",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/app.svg"],
-    link: "https://mega-blog-coral.vercel.app/",
+    link: "https://mega-blog.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/mega-blog',
   },
   {
@@ -138,7 +138,7 @@ export const projects = [
     des: "My personal portfolio website, built with Next.js, Tailwind CSS, and Aceternity UI.",
     img: "/Screenshot (115)-min.png",
     iconLists: ["/next.svg", "/tail.svg", "/acter.webp", "/ts.svg"],
-    link: "https://kuntalmaity.tech",
+    link: "https://kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/portfolio-v2',
   },
   {
@@ -148,7 +148,7 @@ export const projects = [
     des: "A sample ui showcasing a music school website, built with Next js, Tailwind CSS and Aceternity UI.",
     img: "/Screenshot (112)-min.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/acter.webp"],
-    link: "https://music-academy-pink.vercel.app/",
+    link: "https://music-academy.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/music-academy',
   },
   {
