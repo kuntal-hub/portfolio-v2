@@ -2,11 +2,9 @@ import React from 'react'
 import { Cover } from "@/components/ui/cover";
 import { projects as allProjects } from "@/data/index";
 import { CardBody, CardContainer, CardItem } from './ui/3d-card';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaGithub } from "react-icons/fa";
 import Safari from "@/components/ui/safari";
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { FaLocationArrow } from 'react-icons/fa6';
 import MagicButton from './MagicButton';
 

@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -24,17 +25,17 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:km7999319@gmail.com">
+        <Link href="/projects">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>
+        </Link>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center lg:px-16">
         <p className="md:text-base text-sm md:font-normal my-2 font-light">
-          Copyright © 2024 Kuntal Maity
+          Copyright © 2025 Kuntal Maity
         </p>
 
         <div className="flex items-center md:gap-3 my-2 gap-6">

@@ -2,6 +2,9 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import Link from "next/link";
+import MagicButton from "./MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const Experience = () => {
   return (
@@ -47,6 +50,14 @@ const Experience = () => {
           </Button>
         ))}
       </div>
+
+      <Link href="/contact-us" className='block w-[240px] mx-auto'>
+        <MagicButton
+          title="Lets's Build Together"
+          icon={<FaLocationArrow />}
+          position="right"
+        />
+      </Link>
     </div>
   );
 };

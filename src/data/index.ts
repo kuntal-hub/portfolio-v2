@@ -1,9 +1,11 @@
 export const navItems = [
-  // { name: "Home", link: "/" },
-  { name: "About", link: "/#about" },
-  { name: "Projects", link: "/#projects" },
-  { name: "Skills", link: "/#skills" },
-  { name: "Contact", link: "/#contact" },
+  // { name: "Home", link: "/", smallScreen: false },
+  { name: "About", link: "/#about", smallScreen: false },
+  { name: "Services", link: "/#services", smallScreen: true },
+  { name: "Projects", link: "/projects", smallScreen: true },
+  { name: "Skills", link: "/#skills", smallScreen: true },
+  { name: "Blogs", link: "/#blogs", smallScreen: true },
+  { name: "Contact", link: "/contact-us", smallScreen: true },
 ];
 
 export const gridItems = [
@@ -50,8 +52,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on a react native project",
-    description: "The Inside Scoop",
+    title: "Turning concepts into Real Applications",
+    description: "Behind the Code",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -188,15 +190,33 @@ export const skills = [
     color: '#2965f1'
   },
   {
+    name: 'Tailwind CSS',
+    logo: '/tail.svg',
+    percent: 95,
+    color: '#01CBC6'
+  },
+  {
     name: 'JavaScript',
     logo: '/js.svg',
     percent: 92,
     color: '#FAC42F'
   },
   {
+    name: 'TypeScript',
+    logo: '/ts.svg',
+    percent: 85,
+    color: '#3178C6'
+  },
+  {
     name: 'React',
     logo: '/re.svg',
     percent: 95,
+    color: '#61DBFB'
+  },
+  {
+    name: 'React Native',
+    logo: '/re.svg',
+    percent: 85,
     color: '#61DBFB'
   },
   {
@@ -206,16 +226,34 @@ export const skills = [
     color: '#764abc'
   },
   {
+    name: 'React Hook Form',
+    logo: '/react-hook-form-logo-only.svg',
+    percent: 80,
+    color: '#CC6699'
+  },
+  {
     name: 'Next.js',
     logo: '/next.svg',
     percent: 90,
     color: '#FFFFFF'
   },
   {
-    name: 'React Native',
-    logo: '/re.svg',
+    name: 'Shadcn UI',
+    logo: '/shadcn2.png',
+    percent: 80,
+    color: '#4F46E5'
+  },
+  {
+    name: 'Appwrite',
+    logo: '/app.svg',
     percent: 85,
-    color: '#61DBFB'
+    color: '#fe019a'
+  },
+  {
+    name: 'PostgreSQL',
+    logo: '/postgresql-logo-svgrepo-com.svg',
+    percent: 75,
+    color: '#4F46E5'
   },
   {
     name: 'MongoDB',
@@ -236,34 +274,34 @@ export const skills = [
     color: '#FFFFFF'
   },
   {
-    name: 'Tailwind CSS',
-    logo: '/tail.svg',
-    percent: 95,
-    color: '#01CBC6'
+    name: 'Docker',
+    logo: '/dock.svg',
+    percent: 75,
+    color: '#4F46E5'
   },
   {
-    name: 'TypeScript',
-    logo: '/ts.svg',
-    percent: 85,
-    color: '#3178C6'
-  },
-  {
-    name: 'Appwrite',
-    logo: '/app.svg',
-    percent: 85,
-    color: '#fe019a'
-  },
-  {
-    name: 'Cloudinary',
-    logo: '/cloud.svg',
+    name: 'GraphQL',
+    logo: '/graphql-svgrepo-com.svg',
     percent: 80,
-    color: '#FFFFFF'
+    color: '#F24E1E'
+  },
+  {
+    name: 'Redis',
+    logo: '/redis-logo-svgrepo-com.svg',
+    percent: 80,
+    color: '#F24E1E'
+  },
+  {
+    name: 'Socket.io',
+    logo: '/socket-dot-io-svgrepo-com.svg',
+    percent: 75,
+    color: '#4F46E5'
   },
   // {
-  //   name:'Docker',
-  //   logo:'/dock.svg',
-  //   percent:75,
-  //   color:'#4F46E5'
+  //   name: 'Cloudinary',
+  //   logo: '/cloud.svg',
+  //   percent: 80,
+  //   color: '#FFFFFF'
   // },
   // {
   //   name: 'Azure',
@@ -399,3 +437,142 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/kuntal-maity-8aa4612a9"
   },
 ];
+
+
+export const ourServices = [
+  {
+    "title": "Web Development",
+    "description": "Build responsive, scalable, and secure websites tailored to your business.",
+    "points": [
+      "Custom UI/UX design",
+      "Frontend & Backend development",
+      "Integration with databases and APIs",
+      "Responsive design for all devices",
+    ],
+    "closing": "We bring your digital vision to life with precision and performance."
+  },
+  {
+    "title": "Mobile App Development",
+    "description": "Create high-performance mobile apps for iOS and Android platforms.",
+    "points": [
+      "Native & cross-platform development",
+      "Smooth user experiences",
+      "Integration with APIs & databases",
+      "Play Store & App Store deployment"
+    ],
+    "closing": "We turn ideas into intuitive, powerful mobile solutions."
+  },
+  {
+    "title": "Custom Software Solutions",
+    "description": "Tailor-made software built specifically for your business needs.",
+    "points": [
+      "Enterprise-level systems",
+      "Industry-specific software tools",
+      "Workflow automation & optimization",
+      "End-to-end development & delivery"
+    ],
+    "closing": "We solve complex problems with simple, scalable software."
+  },
+  {
+    "title": "API Development & Integration",
+    "description": "Enable your platforms to connect and communicate effectively.",
+    "points": [
+      "Custom REST & GraphQL APIs",
+      "Third-party API integration",
+      "Secure authentication systems",
+      "Real-time data handling"
+    ],
+    "closing": "Connectivity is key—we ensure your services talk to each other smoothly."
+  },
+  {
+    "title": "E-commerce Solutions",
+    "description": "Develop fast, secure, and user-friendly online stores.",
+    "points": [
+      "Shopify, WooCommerce, or custom platforms",
+      "Secure payment gateway integration",
+      "Product & inventory management systems",
+      "Mobile-friendly store experience"
+    ],
+    "closing": "We help you sell smarter and scale faster online."
+  },
+  {
+    "title": "Maintenance & Support",
+    "description": "Keep your systems running at peak performance 24/7.",
+    "points": [
+      "Regular updates & patches",
+      "Bug fixes & performance monitoring",
+      "Security enhancements",
+      "Ongoing technical support"
+    ],
+    "closing": "Our job doesn’t end at launch—we’re with you all the way."
+  },
+]
+
+
+export const myBlogs = [
+  {
+    id: 1,
+    title: "🚀 Supercharge Your Node.js App with Caching: A Developer’s Guide with Code Examples",
+    link: 'https://blog.kuntalmaity.in/different-caching-mechanisms-to-optimize-application-performance',
+    image: "/blog1_img-min.png",
+    readTime: "5 min read"
+  },
+  {
+    id: 2,
+    title: "Docker Simplified: What It Is, Why It Matters, and How It Solves Real-Life Dev Problems",
+    link: 'https://blog.kuntalmaity.in/docker-simplified-what-it-is-why-it-matters-and-how-it-solves-real-life-dev-problems',
+    image: "/blog2_img-min.png",
+    readTime: "5 min read"
+  },
+  {
+    id: 3,
+    title: "🚀 Supercharge Your Node.js App with node-cache: In-Memory Caching Made Easy",
+    link: 'https://blog.kuntalmaity.in/supercharge-your-nodejs-app-with-node-cache-in-memory-caching-made-easy',
+    image: "/blog3_img-min.png",
+    readTime: "9 min read"
+  },
+  {
+    id: 4,
+    title: "🐳 The Ultimate Docker Command Cheat Sheet for Developers",
+    link: 'https://blog.kuntalmaity.in/docker-command-cheat-sheet-for-developers',
+    image: "/blog4_img-min.png",
+    readTime: "20 min read"
+  },
+  {
+    id: 5,
+    title: "🧠 Understanding Memory Leaks in JavaScript – With Real-World Examples & Solutions",
+    link: 'https://blog.kuntalmaity.in/understanding-memory-leaks-in-javascript',
+    image: "/blog5_img-min.png",
+    readTime: "8 min read"
+  },
+  {
+    id: 6,
+    title: "⚡ Real-Time Development with Docker Volumes (Bind Mounts) – No More Rebuilding for Every Change",
+    link: 'https://blog.kuntalmaity.in/real-time-development-with-docker-volumes-bind-mounts',
+    image: "/blog6_img-min.png",
+    readTime: "4 min read"
+  },
+  {
+    id: 7,
+    title: "🐳 Dockerfile Explained – How to Build Your Own Docker Images Step by Step",
+    link: 'https://blog.kuntalmaity.in/how-to-build-your-own-docker-images-step-by-step',
+    image: "/blog7_img-min.png",
+    readTime: "9 min read"
+  },
+  {
+    id: 8,
+    title: "🐳 Everything About Docker Compose – Simplify Your Multi-Container Development",
+    link: 'https://blog.kuntalmaity.in/everything-about-docker-compose-simplify-your-multi-container-development',
+    image: "/blog8_img-min.png",
+    readTime: "10 min read"
+  },
+  {
+    id: 9,
+    title: "🌐 Docker Networks Explained – A Complete Beginner’s Guide",
+    link: 'https://blog.kuntalmaity.in/docker-networks-explained-a-complete-beginners-guide',
+    image: "/blog9_img-min.png",
+    readTime: "8 min read"
+  },
+]
+
+export const chatWithMeUrl = "https://wa.me/919679154766?text=Hello+there!";

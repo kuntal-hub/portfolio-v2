@@ -1,9 +1,11 @@
 import React from 'react'
-import { projects } from '@/data/index'
+import { projects, socialMedia } from '@/data/index'
 import HyperText from '@/components/ui/hyper-text'
 import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card'
 import { FaGithub, FaLocationArrow } from 'react-icons/fa6'
 import Safari from '@/components/ui/safari'
+import Link from 'next/link'
+import MagicButton from '@/components/MagicButton'
 
 export default function page() {
     return (
@@ -81,6 +83,34 @@ export default function page() {
                     ))
                 }
             </div>
+
+            <Link href="/contact-us" className='block w-[240px] mt-5 mb-10 mx-auto'>
+                <MagicButton
+                    title="Start a Project Together"
+                    icon={<FaLocationArrow />}
+                    position="right"
+                />
+            </Link>
+
+
+            <footer>
+                <div className="flex mt-16 md:flex-row flex-col justify-between items-center lg:px-16">
+                    <p className="md:text-base text-sm md:font-normal my-2 font-light">
+                        Copyright © 2025 Kuntal Maity
+                    </p>
+
+                    <div className="flex items-center md:gap-3 my-2 gap-6">
+                        {socialMedia.map((info) => (
+                            <a href={info.link} target="_blank" rel="noreferrer"
+                                key={info.id}
+                                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                            >
+                                <img src={info.img} alt="icons" width={20} height={20} />
+                            </a>
+                        ))}
+                    </div>
+                </div>
+            </footer>
         </div>
     )
 }

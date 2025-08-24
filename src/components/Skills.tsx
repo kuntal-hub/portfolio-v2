@@ -5,7 +5,7 @@ import { HoverEffect } from './ui/card-hover-effect'
 
 export default function Skills() {
     return (
-        <div id='skills' className='pt-16 w-full'>
+        <div id='skills' className='pt-16 pb-10 w-full'>
             <h1 className='flex justify-center'>
                 <HyperText
                     className="text-2xl sm:text-4xl md:text-5xl my-8 text-center font-bold text-black dark:text-white"

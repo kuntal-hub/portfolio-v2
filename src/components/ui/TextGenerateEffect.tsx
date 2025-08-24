@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { AuroraText } from "@/components/magicui/aurora-text";
 
 export const TextGenerateEffect = ({
   words,
@@ -34,10 +35,15 @@ export const TextGenerateEffect = ({
             <motion.span
               key={word + idx}
               // change here if idx is greater than 3, change the text color to #CBACF9
-              className={` ${idx > 3 ? "text-purple" : "text-white"
-                } opacity-0`}
+              className={`opacity-0 text-white`}
             >
-              {word}{" "}
+              {
+                (idx < 5 && idx > 2) ? (
+                  <AuroraText >
+                    {word}
+                  </AuroraText>)
+                  : word
+              }{" "}
             </motion.span>
           );
         })}

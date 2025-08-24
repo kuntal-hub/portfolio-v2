@@ -76,7 +76,7 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative items-center  flex space-x-1 text-neutral-200 hover:text-neutral-400"
+              `relative items-center ${navItem.smallScreen ? "block" : "hidden min-[500px]:block"} space-x-1 text-neutral-200 hover:text-neutral-400`
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>

@@ -1,8 +1,8 @@
 'use client';
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import Link from "next/link";
-import AnimatedCircularProgressBar from "@/components/ui/animated-circular-progress-bar";
+// import Link from "next/link";
+// import AnimatedCircularProgressBar from "@/components/ui/animated-circular-progress-bar";
 import { useState } from "react";
 
 export const HoverEffect = ({
@@ -22,7 +22,7 @@ export const HoverEffect = ({
     return (
         <div
             className={cn(
-                "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  py-10",
+                "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  py-10",
                 className
             )}
         >
@@ -51,7 +51,7 @@ export const HoverEffect = ({
                         )}
                     </AnimatePresence>
                     <Card className="flex flex-col justify-center items-center">
-                        <AnimatedCircularProgressBar
+                        {/* <AnimatedCircularProgressBar
                             max={100}
                             min={0}
                             className="min-[500px]:size-24 size-20 text-sm block mx-auto"
@@ -66,6 +66,16 @@ export const HoverEffect = ({
                                 className="w-6 h-6"
                             />
                             <p className="text-zinc-100 text-xs min-[450px]:text-sm font-bold tracking-wide ml-2">
+                                {item.name}
+                            </p>
+                        </div> */}
+                        <div className="flex flex-nowrap flex-col justify-center items-center">
+                            <img
+                                src={item.logo}
+                                alt={item.name}
+                                className="w-20 h-20"
+                            />
+                            <p className="text-zinc-100 mt-3 text-sm font-bold tracking-wide">
                                 {item.name}
                             </p>
                         </div>
