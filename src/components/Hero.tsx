@@ -71,7 +71,7 @@ const Hero = () => {
 
                     <MorphingText texts={texts} className="text-center h-auto md:tracking-wider mb-24 md:mb-2 text-lg md:text-2xl lg:text-4xl" />
 
-                    <a href="#our-services">
+                    <a href="#services">
                         <MagicButton
                             title="Explore My Services"
                             mt="md:mt-1"
