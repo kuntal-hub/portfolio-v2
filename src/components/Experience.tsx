@@ -51,7 +51,7 @@ const Experience = () => {
         ))}
       </div>
 
-      <Link href="/contact-us" className='block w-[240px] mx-auto'>
+      <Link href="/contact-us" className='block w-[240px] mt-8 sm:mt-4 mx-auto'>
         <MagicButton
           title="Lets's Build Together"
           icon={<FaLocationArrow />}

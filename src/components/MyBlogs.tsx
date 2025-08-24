@@ -19,7 +19,7 @@ export default function MyBlogs() {
                         return (
                             <CometCard key={blog.id} className='mx-5 my-5'>
                                 <div
-                                    className="flex w-96 flex-col items-stretch rounded-[16px] border-0 md:p-4"
+                                    className="flex w-96 flex-col items-stretch rounded-[16px] border-0 p-3"
                                     aria-label="View invite F7RA"
                                     style={{
                                         transformStyle: "preserve-3d",
