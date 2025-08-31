@@ -99,6 +99,10 @@ export default function page() {
                         Copyright © 2025 Kuntal Maity
                     </p>
 
+                    <Link href="/">
+                        <img src="my_blog_logo_dark-removebg-preview-min.png" alt="My Logo" className="w-60 sm:w-64 sm:my-6 md:my-0 xl:w-72 my-4 aspect-[4/1]" />
+                    </Link>
+
                     <div className="flex items-center md:gap-3 my-2 gap-6">
                         {socialMedia.map((info) => (
                             <a href={info.link} target="_blank" rel="noreferrer"

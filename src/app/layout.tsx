@@ -22,8 +22,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kuntal's Portfolio",
   description: "Mordern Portfolio built with Next.js and Tailwind CSS",
-  icons:{
-    icon:'/my-photo-corped-min.jpeg',
+  icons: {
+    icon: '/my_blog_logo_favicon2-removebg-preview-min.png',
   }
 };
 
