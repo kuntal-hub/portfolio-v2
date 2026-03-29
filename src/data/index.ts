@@ -85,13 +85,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "CALLUP",
+    title: "Share Learner",
     isFeatured: true,
-    des: "Simplify your video conferencing experience with CALLUP. Seamlessly connect with colleagues and friends.",
-    img: "/Screenshot (108)-min.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://callup.kuntalmaity.in",
-    github: 'https://github.com/kuntal-hub/callup'
+    des: "A social media platform for learners, Seamlessly connect with learners and share your knowledge.",
+    img: "/Screenshot (111)-min.png",
+    iconLists: ["/re.svg", "/tail.svg", "/node-svgrepo-com.svg", "/shadcn.png", "/mongo-svgrepo-com.svg"],
+    link: "https://sharelearner.kuntalmaity.in/",
+    github: 'https://github.com/kuntal-hub/sharelearner-client',
   },
   {
     id: 3,
@@ -115,6 +115,16 @@ export const projects = [
   },
   {
     id: 5,
+    title: "CALLUP",
+    isFeatured: true,
+    des: "Simplify your video conferencing experience with CALLUP. Seamlessly connect with colleagues and friends.",
+    img: "/Screenshot (108)-min.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://callup.kuntalmaity.in",
+    github: 'https://github.com/kuntal-hub/callup'
+  },
+  {
+    id: 6,
     title: "MEGA BLOG",
     isFeatured: true,
     des: "A blogging platform build with Appwrite and Reactjs, Seamlessly create, edit, and Share your blog.",
@@ -122,16 +132,6 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/app.svg"],
     link: "https://mega-blog.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/mega-blog',
-  },
-  {
-    id: 6, // not done yet
-    title: "Share Learner",
-    isFeatured: true,
-    des: "A social media platform for learners, Seamlessly connect with learners and share your knowledge.",
-    img: "/Screenshot (111)-min.png",
-    iconLists: ["/re.svg", "/tail.svg", "/node-svgrepo-com.svg", "/shadcn.png", "/mongo-svgrepo-com.svg"],
-    link: "https://sharelearner.vercel.app",
-    github: 'https://github.com/dasamritendu619/sharelearner-client',
   },
   {
     id: 7,
