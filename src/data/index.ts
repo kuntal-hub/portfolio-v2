@@ -100,7 +100,7 @@ export const projects = [
     des: "An e-commerce platform for selling customised photo prints, with a focus on user experience and performance.",
     img: "/Screenshot (109)-min.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/mongo-svgrepo-com.svg"],
-    link: "https://photoinkuntalmaity.in",
+    link: "https://photoin.kuntalmaity.in",
     github: 'https://github.com/kuntal-hub/photoin',
   },
   {
@@ -126,7 +126,7 @@ export const projects = [
   {
     id: 6,
     title: "Portfolio",
-    isFeatured: false,
+    isFeatured: true,
     des: "My personal portfolio website, built with Next.js, Tailwind CSS, and Aceternity UI.",
     img: "/Screenshot (115)-min.png",
     iconLists: ["/next.svg", "/tail.svg", "/acter.webp", "/ts.svg"],
@@ -136,7 +136,7 @@ export const projects = [
   {
     id: 7,
     title: "MEGA BLOG",
-    isFeatured: true,
+    isFeatured: false,
     des: "A blogging platform build with Appwrite and Reactjs, Seamlessly create, edit, and Share your blog.",
     img: "/Screenshot (106)-min.png",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/app.svg"],
